@@ -6,7 +6,8 @@
 # CentOs 7 不能联网问题
 
     通过ip addr来查看
-![Alt text](./1504593095433.png)
+    
+![Alt text](./ifconfig.png)
     发现网卡没有被激活
     
     vi /etc/sysconfig/network-scripts/ifcfg-enp0s3 编辑次网卡，将ONBOOT=no 修改为 ONBOOT=yes
