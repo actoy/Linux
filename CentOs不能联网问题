@@ -1,0 +1,7 @@
+#CentOs 7 ifconfig：Command not Found
+
+ * 在sbin目录中没有ifconfig文件，这是因为centos7已经不使用 ifconfig命令了，已经用ip命令代替
+ * 解决方案：yum install net-tools
+  
+# CentOs 7 不能联网问题
+ 
